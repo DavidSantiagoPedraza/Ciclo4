@@ -22,7 +22,7 @@ public class MainActivity extends AppCompatActivity {
     public void goToActivitySecond(View view) {
         Intent newIntent = new Intent(this, SecondActivity.class);
         newIntent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP); //Borra todas las instancias y deja la ultima que se dejo
-        newIntent.putExtra("mensaje", "Hola" );
+        newIntent.putExtra("mensaje", "Hola Tripulante" );
         newIntent.putExtra("year", 2021);
         startActivity(newIntent);
     }
