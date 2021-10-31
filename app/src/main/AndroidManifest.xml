@@ -23,7 +23,7 @@
             android:exported="false" />
         <activity
             android:name="com.example.ProyectoAndroidGrupo6.MainActivity"
-            android:label="@string/activity_main"
+
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
