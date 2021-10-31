@@ -1,4 +1,4 @@
-package com.example.miclaseholaworld;
+package com.example.ProyectoAndroidGrupo6;
 
 import android.os.Bundle;
 
@@ -13,7 +13,7 @@ import androidx.navigation.Navigation;
 import androidx.navigation.ui.AppBarConfiguration;
 import androidx.navigation.ui.NavigationUI;
 
-import com.example.miclaseholaworld.databinding.ActivityCategoriaBinding;
+import com.example.ProyectoAndroidGrupo6.databinding.ActivityCategoriaBinding;
 
 public class CategoriaActivity extends AppCompatActivity {
 

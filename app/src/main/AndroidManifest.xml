@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.miclaseholaworld">
+    package="com.example.ProyectoAndroidGrupo6">
 
     <application
         android:allowBackup="true"
@@ -10,19 +10,19 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MiClaseHolaWorld">
         <activity
-            android:name=".SecondActivity"
+            android:name="com.example.ProyectoAndroidGrupo6.SecondActivity"
             android:label="@string/activity_second"
             android:exported="false" />
         <activity
-            android:name=".CategoriaActivity"
+            android:name="com.example.ProyectoAndroidGrupo6.CategoriaActivity"
             android:exported="false"
             android:label="@string/title_activity_categoria"
             android:theme="@style/Theme.MiClaseHolaWorld.NoActionBar" />
         <activity
-            android:name=".ProductActivity"
+            android:name="com.example.ProyectoAndroidGrupo6.ProductActivity"
             android:exported="false" />
         <activity
-            android:name=".MainActivity"
+            android:name="com.example.ProyectoAndroidGrupo6.MainActivity"
             android:label="@string/activity_main"
             android:exported="true">
             <intent-filter>

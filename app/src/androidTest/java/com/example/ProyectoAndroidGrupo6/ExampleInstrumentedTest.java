@@ -1,4 +1,4 @@
-package com.example.miclaseholaworld;
+package com.example.ProyectoAndroidGrupo6;
 
 import android.content.Context;
 
